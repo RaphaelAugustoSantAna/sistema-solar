@@ -1,3 +1,43 @@
 .App {
   text-align: center;
 }
+
+h2 {
+  border: 1px solid white;
+  display: flex;
+  text-align: center;
+}
+
+body {
+  background-image: url(./images/background.png);
+}
+
+header {
+  text-align: center;
+}
+
+.title {
+  color: aliceblue;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.solar-system {
+  border: 1px solid white;
+  display: flex;
+}
+
+.planet-card {
+  color: aliceblue;
+}
+
+.mission {
+  display: flex;
+}
+
+.mission-card {
+  border: 1px solid white;
+  border-radius: 10px;
+  color: aliceblue;
+  padding: 10px;
+}
