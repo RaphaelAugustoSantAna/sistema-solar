@@ -21,7 +21,7 @@ header {
 .title {
   color: aliceblue;
   display: flex;
-  margin-top: -25px;
+  margin-top: -5px;
 }
 
 .solar-system {
@@ -30,10 +30,13 @@ header {
 
 .planet-card {
   color: aliceblue;
+  display: flex;
 }
 
-.mission {
+.mission{
+  align-items:stretch;
   display: flex;
+  flex-direction: row;
 }
 
 .mission-card {
@@ -53,5 +56,19 @@ header {
   color: aliceblue;
   text-transform:uppercase;
 }
+
+.planet-name{
+  align-items:center;
+  display: flex;
+  margin-left: 100px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+img{
+  margin-right: -130px;
+  width: 300px;
+}
+
 
 
